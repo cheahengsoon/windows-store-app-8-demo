@@ -30,7 +30,7 @@ Make sure you have NuGet Package Manager 2.1 or newer installed in Visual Studio
 
 ###Setting up the SDK
 ####Prerequisites for Windows 8.1 Applications
-**Important:** Before you start using the SDK on Windows 8.1 projects, please make sure that you add http://*.ipayy.com to the "Content URIs" section in the **Package.appxmanifest** file. This is required to allow the payment website to communicate with the SDK. The SDK will not work correctly if this rule is not added. This is only needed for applications targeted for Windows 8.1.
+**Important:** Before you start using the SDK on Windows 8.1 projects, please make sure that you add http://\*.ipayy.com to the "Content URIs" section in the **Package.appxmanifest** file. This is required to allow the payment website to communicate with the SDK. The SDK will not work correctly if this rule is not added. This is only needed for applications targeted for Windows 8.1.
 
 ###Using the SDK
 ####Pre-requisites before you start coding :-
