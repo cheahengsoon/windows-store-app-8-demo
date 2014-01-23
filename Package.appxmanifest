@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  <Identity Name="6aef2861-6eea-450d-bcf8-70c61f1943ce" Publisher="CN=vishal.dhawani" Version="1.0.0.0" />
+  <Properties>
+    <DisplayName>iPayyDemo (W8)</DisplayName>
+    <PublisherDisplayName>vishal.dhawani</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.2.1</OSMinVersion>
+    <OSMaxVersionTested>6.2.1</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="iPayyDemo.App">
+      <VisualElements DisplayName="iPayy Demo" Logo="Assets\Logo.png" SmallLogo="Assets\SmallLogo.png" Description="iPayy Demo" ForegroundText="light" BackgroundColor="#ffffff">
+        <DefaultTile ShowName="allLogos" ShortName="iPayy" />
+        <SplashScreen Image="Assets\SplashScreen.png" BackgroundColor="#333333" />
+      </VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+  </Capabilities>
+</Package>
